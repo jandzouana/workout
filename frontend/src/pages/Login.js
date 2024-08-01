@@ -23,7 +23,7 @@ const Login = () => {
             <h3>Log in</h3>
             <label>Email:</label>
             <input type="email" onChange={handleEmailChange} value={email}/>
-            <label>Email:</label>
+            <label>Password:</label>
             <input type="password" onChange={handlePwdChange} value={password}/>
             <button type="submit"> Log in</button>
         </form>

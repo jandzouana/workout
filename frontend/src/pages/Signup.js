@@ -25,7 +25,7 @@ const Signup = () => {
             <h3>Sign up</h3>
             <label>Email:</label>
             <input type="email" onChange={handleEmailChange} value={email}/>
-            <label>Email:</label>
+            <label>Password:</label>
             <input type="password" onChange={handlePwdChange} value={password}/>
             <button type="submit" disabled={isLoading}> Sign up</button>
             {error && <div className="error">{error}</div>}
