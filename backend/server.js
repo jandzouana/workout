@@ -11,6 +11,7 @@ const app = express()
 // middleware
 app.use(express.json())
 
+// always runs for each request
 app.use((req, res, next) => {
   console.log(req.path, req.method)
   next()
